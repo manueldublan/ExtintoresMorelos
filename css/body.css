@@ -1,0 +1,13 @@
+body {
+  --contentWidth:400px;
+  padding: 4rem;
+  margin:0 auto;
+  max-width: 700;
+  scrollbar-width: 20px;
+  }
+
+#screen1{
+ position: sticky;
+ top: 0;
+}
+

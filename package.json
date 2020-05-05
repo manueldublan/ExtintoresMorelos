@@ -1,0 +1,18 @@
+{
+  "name": "extintores-morelos.com",
+  "version": "1.0.0",
+  "description": "web page of the client that sells extinguishers or extintors.",
+  "main": "app.js",
+  "scripts": {
+    "watch": "nodemon mongodb/conn.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bams",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "mongoose": "^5.9.11",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.3"
+  }
+}
