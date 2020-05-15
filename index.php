@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css\style.css">
         <link rel="stylesheet" href="css\body.css">
         <link rel="stylesheet" href="css\footer.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     </head>
     <header>
@@ -40,29 +41,39 @@
         </div></section>
 
 
-          <!--- <div class="Servicios"> --->
-          <div><h3>Llenado de extintores</h3>
-          <p><img src="img/firefighting.png" width="130" height="100" style="float:left" alt="Llenado de tanque"/> El mejor servicio y productos de Recarga-Extintores se encuentra ubicado en el estado de Morelos. Nosotros llenamos tu tanque, ademas llevamos un seguimiento sobre el mismo para tener control reciclaje, reemplazo. ontamos para su comodidad con servicio a domicilio de llenado y mantenimiento de extintores. Contamos con diferentes capacidades, tipos ...</p><br>
-          </div>
+        <section class=articulos>
+        <article class=articulo> 
+        <h3><i class="fa fa-fire-extinguisher fa-3x"></i>EXTINTORES MORELOS</h3>
+        <p> Le brindará a usted la asesoría profesional, para que de manera adecuada, cubramos sus necesidades en materia de seguridad y equipo contra incendio, con la plena seguridad de que todos nuestros productos y trabajos se elabroran bajo los más estrictos estándares de calidad, siempre rigiéndonos por las Normas Oficiales Mexicanas y controles de calidad internacionales. </p><br></article>
         
-          <h3>Quienes somos ? Extintores Morelos</h3>
-          <p> El mejor servicio y productos de Recarga-Extintores se encuentra ubicado en el estado de Morelos. Nosotros llenamos tu tanque, ademas llevamos un seguimiento sobre el mismo para tener control reciclaje, reemplazo. ontamos para su comodidad con servicio a domicilio de llenado y mantenimiento de extintores. Contamos con diferentes capacidades, tipos ...</p><br>
+         <!--div*3>{span!} -->  
+         <article class=articulo>
+         <h3><i class="fa fa-fire  fa-3x"></i>Misión</h3>
+         <p>Fabricar y comercializar equipo contra incendio de la más alta calidad, asumiendo el compromiso de brindarle una solución integral a sus requerimientos, con el respaldo de una marca líder en el mercado, con precios competitivos y la garantía de suministro y servicio oportunos.</p></article><br>
 
-          <h3>Venta de Extintores</h3>
-          <p> El mejor servicio y productos de Recarga-Extintores se encuentra ubicado en el estado de Morelos. Nosotros llenamos tu tanque, ademas llevamos un seguimiento sobre el mismo para tener control reciclaje, reemplazo. ontamos para su comodidad con servicio a domicilio de llenado y mantenimiento de extintores. Contamos con diferentes capacidades, tipos ...</p><br>
+        <article class=articulo> 
+        <h3><i class="fa fa-fire  fa-3x"></i>VISIÓN</h3>
+        <p>Ser reconocidos como una empresa de clase mundial, líder en la fabricación y comercialización de equipo contra Incendio, cuya marca sea una referencia de calidad y confianza. Ofreciéndole a nuestros clientes las mejores alternativas y soluciones integrales en materia de seguridad, mediante un servicio profesional, ético y responsable.</p></article><br>
+            
+        <article class=articulo>
+        <h3><i class="fa fa-fire  fa-3x"></i>Recarga y Mantenimiento de Extintores</h3>
+         <p>El mantenimiento es una verificación completa del extinguidor. Tiene el fin de dar la máxima seguridad de que el extinguidor funcionara efectiva y seguramente. Incluye un examen completo y cualquier reparación o repuesto que necesite. Los extinguidores deben estar sujetos a mantenimiento anualmente, cuando sea indicado específicamente por una inspección bimestral o en el momento de la prueba hidrostática.<p></article><br>
 
-          <h3>Llenado de extintores</h3>
-          <p> El mejor servicio y productos de Recarga-Extintores se encuentra ubicado en el estado de Morelos. Nosotros llenamos tu tanque, ademas llevamos un seguimiento sobre el mismo para tener control reciclaje, reemplazo. ontamos para su comodidad con servicio a domicilio de llenado y mantenimiento de extintores. Contamos con diferentes capacidades, tipos ...</p><br>
+        <article class=articulo>
+        <h3><i class="fa fa-fire  fa-3x"></i>Mantenimiento</h3> 
+        <p>Los procedimientos de mantenimiento deben incluir un examen minucioso de los tres elementos básicos de un extinguidor:</p>
+            <ul id=circle>
+                <li>Partes Mecánicas</li>
+                <li>Agente Extintor</li>
+                <li>Medios Expelentes</li>
+            </ul>
+        <p>Cada extinguidor debe tener una etiqueta o rotulo seguramente adherida y que indique el mes y año en que se ejecutó el mantenimiento y debe indicar la persona o empresa que realizo el servicio.</p></article>
 
-          <h3>Señalizacion</h3>
-          <p> El mejor servicio y productos de Recarga-Extintores se encuentra ubicado en el estado de Morelos. Nosotros llenamos tu tanque, ademas llevamos un seguimiento sobre el mismo para tener control reciclaje, reemplazo. ontamos para su comodidad con servicio a domicilio de llenado y mantenimiento de extintores. Contamos con diferentes capacidades, tipos ...</p><br>
-
-        </div>
-        <footer>
+        
+    </section>
 
           <!-- Footer Menu -->
           <footer id = "footer">
-
               <!-- Company Details -->
               <!-- 1. Address
                    2. Contact Number
@@ -81,7 +92,6 @@
 
                       <div id ="col2">
                           <span id="icon" class="fa fa-phone"></span>
-
                           <span>
                               Telefono: 5539231458
                           </span>
@@ -96,7 +106,7 @@
 
               <!-- Copyright Section -->
               <div class="copyright">
-                  <p>©  All rights reserved | BamsTech.</p>
+                  <p>©  All rights reserved | Bams Technology.</p>
               </div>
         </footer>
     </body>

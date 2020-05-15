@@ -11,3 +11,22 @@ body {
  top: 0;
 }
 
+.fa fa-fire-extinguisher{
+ margin-left: auto;
+ display: inline-flex;
+}
+
+
+.articulo h3{
+  color: #e6b800 ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.articulo p{
+  color: #e67300 ;
+  font-family: sans-serif;
+}
+
+#circle{
+  list-style-type: circle;
+}
