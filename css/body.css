@@ -27,6 +27,31 @@ body {
   font-family: sans-serif;
 }
 
-#circle{
+dl {
+  margin-bottom:50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+dl dd {
+  margin:2px 0; 
+  padding:5px 0;
+  color: yellow;
+  background-color: transparent;
+}
+
+ul.policies li{
   list-style-type: circle;
+  margin: 0;
+  padding: 0;
+  color: #e67300;
+  font-weight: bold;
+}
+
+.extrs_mor {
+  width: 1085px;
+  height: 210px;
+  margin: 10px auto 20px;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
